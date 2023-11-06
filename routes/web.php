@@ -19,7 +19,6 @@ use Illuminate\Http\Client\Request;
 */
 
 Route::get('/', function () {
-    notify()->success('Welcome to Laravel Notify ⚡️', 'Success');
     return view('auth.login');
 });
 

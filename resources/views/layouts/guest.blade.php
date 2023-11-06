@@ -14,7 +14,7 @@
 {{--        <!-- Scripts -->--}}
 {{--        --}}
                 <link rel="stylesheet" href="{{asset ('assets/css/styles.min.css')}}" />
-                @vite(['resources/css/app.css', 'resources/js/app.js'])
+                {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     </head>
     <body class="font-sans text-gray-900 antialiased">
